@@ -1,2 +1,7 @@
 # speech_to_text-_log_in
-This repository implements a basic system for logging in using speech recognition. Users can speak their username and password, and the system verifies them against stored credentials.
+Features:
+
+Simple speech recognition: Converts spoken words into text.
+User authentication: Checks username and password against stored data.
+Clear instructions: Guides users on how to interact with the system.
+Note: This is a basic implementation for educational or demonstration purposes..
