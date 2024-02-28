@@ -3,7 +3,7 @@ runSpeechRecog = () => {
     var output = document.getElementById('output');
     var action = document.getElementById('action');
     let recognization = new webkitSpeechRecognition();
-    let ent_pass = new webkitSpeechRecognition();
+    
     recognization.onstart = () => {
        action.innerHTML = "Listening...";
     }
