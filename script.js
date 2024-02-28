@@ -13,7 +13,7 @@ runSpeechRecog = () => {
        console.log(transcript);
        if(transcript==="open my activity 2"){
         alert("Log in");
-        window.location.href="../Activity1/api/index.html";
+        window.location.href="File_Location";
        }
        else{
         let speech = new SpeechSynthesisUtterance();
